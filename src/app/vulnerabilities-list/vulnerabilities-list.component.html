@@ -1,0 +1,40 @@
+<clr-tree-node>
+  <a class="clr-treenode-link" (click)="isExpanded = !isExpanded">
+    <clr-icon shape="bug"></clr-icon>
+    <b>Vulnerabilities</b>
+  </a>
+  <ng-template *ngIf="categoriesGroupedByFile" [(clrIfExpanded)]="isExpanded">
+    <clr-tree-node *ngFor="let category of categoriesGroupedByFile">
+      <a class="clr-treenode-link" (click)="category.isExpanded = !category.isExpanded">
+        <b>{{category.name}}</b> &ensp;
+        <span class="badge badge-info">{{category.size}}</span>
+      </a>
+      <ng-template [(clrIfExpanded)]="category.isExpanded">
+        <clr-tree-node *ngFor="let vulnerabilitiesByFile of category.vulnerabilities">
+
+          <a class="clr-treenode-link" *ngIf="vulnerabilitiesByFile.size === 1"
+                  [class.active]="selectedVulnerability === vulnerabilitiesByFile.vulnerabilities[0]"
+                  (click)="selection = vulnerabilitiesByFile.vulnerabilities[0]">
+            {{vulnerabilitiesByFile.vulnerabilities[0].location.file | basename}} (line: {{vulnerabilitiesByFile.vulnerabilities[0].location.line}})
+          </a>
+
+          <a class="clr-treenode-link" *ngIf="vulnerabilitiesByFile.size > 1"
+                  (click)="vulnerabilitiesByFile.isExpanded = !vulnerabilitiesByFile.isExpanded">
+            <b>{{vulnerabilitiesByFile.vulnerabilities[0].location.file | basename}}</b> &ensp;
+            <span class="badge badge-info">{{vulnerabilitiesByFile.size}}</span>
+          </a>
+
+          <ng-template *ngIf="vulnerabilitiesByFile.size > 1" [(clrIfExpanded)]="vulnerabilitiesByFile.isExpanded">
+            <clr-tree-node *ngFor="let vulnerability of vulnerabilitiesByFile.vulnerabilities">
+           <a class="clr-treenode-link"
+                  [class.active]="selectedVulnerability === vulnerability"
+                  (click)="selection = vulnerability">
+            line: {{vulnerability.location.line}}
+          </a>
+            </clr-tree-node>
+          </ng-template>
+        </clr-tree-node>
+      </ng-template>
+    </clr-tree-node>
+  </ng-template>
+</clr-tree-node>

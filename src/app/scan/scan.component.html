@@ -1,0 +1,80 @@
+<clr-stack-view *ngIf="project?.scans.length > 0; else noScans">
+  <clr-stack-block *ngFor="let scan of project.scans; trackBy: trackScan; let i = index">
+    <clr-stack-label>
+      Scan {{i+1}}
+      <span class="right" [ngSwitch]="scan.status">
+        <span *ngSwitchCase="Status.COMPLETE">
+          <button class="btn btn-sm btn-success" routerLink="/workbench/{{project.name}}/{{scan.uuid}}">
+            <clr-icon shape="scroll"></clr-icon>
+            Show Results
+          </button>
+          <button class="btn btn-sm btn-info" (click)="restartScan(scan)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Scan
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="removeScan(scan)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.RUNNING">
+          <span class="spinner spinner-inline"></span>
+          <button class="btn btn-sm btn-link">Running</button>
+          <button class="btn btn-sm btn-danger-outline" (click)="stopScan(scan)">
+            <clr-icon shape="stop"></clr-icon>
+            Stop
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.BUILDING">
+          <span class="spinner spinner-inline"></span>
+          <button class="btn btn-sm btn-link">Building Project</button>
+          <button class="btn btn-sm btn-danger-outline" (click)="stopScan(scan)">
+            <clr-icon shape="stop"></clr-icon>
+            Stop
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.FAILED">
+          <span class="label label-danger">Failed</span>
+          <button class="btn btn-sm btn-info" (click)="restartScan(scan)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Scan
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="removeScan(scan)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.ABORTED">
+          <span class="label label-danger">Aborted</span>
+          <button class="btn btn-sm btn-info" (click)="restartScan(scan)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Scan
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="removeScan(scan)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.READY">
+          <button class="btn btn-sm btn-info-outline" (click)="startScan(scan)">
+            <clr-icon shape="play"></clr-icon>
+            Start
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="removeScan(scan)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+      </span>
+
+    </clr-stack-label>
+
+    <clr-stack-block>
+      <clr-stack-label>
+        <h4>Logs</h4>
+        <app-log [content]="scan.logs"></app-log>
+      </clr-stack-label>
+    </clr-stack-block>
+  </clr-stack-block>
+</clr-stack-view>
+<ng-template #noScans>No scans found. Start by adding a new scan.</ng-template>

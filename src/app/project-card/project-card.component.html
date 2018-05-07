@@ -1,0 +1,68 @@
+<div class="card">
+  <div class="card-header">Project {{project.name}}</div>
+  <div class="card-block"><b>Location:</b><br>{{project.location}}</div>
+  <div class="card-block">
+    <div class="card-title">Static Analysis Scans</div>
+    <div class="card-text">
+      <app-scan [project]="project"></app-scan>
+    </div>
+  </div>
+  <div class="card-block">
+    <div class="card-title">Fuzzing runs</div>
+    <div class="card-text">
+      <app-fuzzing-runs [project]="project"></app-fuzzing-runs>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a class="btn btn-sm" (click)="openScanModal()">
+      <clr-icon shape="plus"></clr-icon>
+      Add Scan
+    </a>
+    <a class="btn btn-sm" (click)="openFuzzingModal()">
+      <clr-icon shape="plus"></clr-icon>
+      Add Fuzz-Target
+    </a>
+    <a class="btn btn-danger-outline btn-sm" (click)="removeProject()">
+      <clr-icon shape="trash"></clr-icon>
+      Remove Project
+    </a>
+  </div>
+</div>
+
+<clr-modal [(clrModalOpen)]="showNewFuzzModal" [clrModalSize]="'lg'">
+  <h3 class="modal-title">Add a new Fuzz-Target</h3>
+  <div class="modal-body">
+    <form class="compact">
+      <div class="form-group">
+        <label for="formFuzzTargetName">Fuzz target name</label>
+        <input type="text"
+               id="formFuzzTargetName"
+               name="fuzzTargetName"
+               placeholder="target"
+               [(ngModel)]="fuzzTargetName">
+      </div>
+      <p>Please provide the code to execute the fuzz-target below.</p>
+      <section class="form-block">
+        <textarea [(ngModel)]="fuzzTargetCode"
+                  name="fuzzingCode"
+                  id="fuzzingCode"
+                  rows="10"></textarea>
+      </section>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline" (click)="showNewFuzzModal = false">Cancel</button>
+    <button type="button" class="btn btn-primary" (click)="AddFuzzingTarget()">Add Fuzz-target</button>
+  </div>
+</clr-modal>
+
+<clr-modal [(clrModalOpen)]="showNewScanModal" [clrModalSize]="'xl'">
+  <h3 class="modal-title">Scan Configuration</h3>
+  <div class="modal-body">
+    <app-scan-configuration (onConfigChange)="updateCheckers($event)"></app-scan-configuration>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline" (click)="showNewScanModal = false">Cancel</button>
+    <button type="button" class="btn btn-primary" (click)="addScan()">Finish</button>
+  </div>
+</clr-modal>

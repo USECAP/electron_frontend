@@ -1,0 +1,32 @@
+<div class="card">
+  <div class="card-header">
+    Hot Files <clr-icon shape="flame"></clr-icon>
+  </div>
+  <div class="card-block">
+    <div class="card-media-block">
+      <div class="tableWrapper">
+        <table>
+          <tr>
+            <th>Categories</th><th>File</th><th>Count</th>
+          </tr>
+          <tr *ngFor="let row of data | slice: (currentPage - 1) * 10: currentPage * 10">
+            <td>{{ row.categories.join(', ') }}</td>
+            <td>{{ row.file }}</td>
+            <td class="number">{{ row.count }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="btn-group btn-link btn-icon" id="pageSelector">
+          <button class="btn" (click)="prevPage()" [disabled]="currentPage <= 1">
+            <clr-icon shape="arrow left"></clr-icon>
+            <span class="clr-icon-title">Previous Page</span>
+          </button>
+          <span class="pageDisplay">{{currentPage}}/{{maxPage}}</span>
+          <button class="btn" (click)="nextPage()" [disabled]="currentPage >= maxPage">
+            <clr-icon shape="arrow right"></clr-icon>
+            <span class="clr-icon-title">Next Page</span>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>

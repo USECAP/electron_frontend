@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+.unselectable{
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.chart-legend .legend-wrap {
+  width: 100% !important;
+}

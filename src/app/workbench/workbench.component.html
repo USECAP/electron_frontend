@@ -1,0 +1,38 @@
+<div class="content-container">
+
+  <nav class="sidenav" #navigation>
+    <section class="sidenav-content">
+      <a class="nav-link" [class.active]="!selectedVulnerability && !selectedFile"
+         (click)="resetSelection()">
+        <b><clr-icon shape="help-info"></clr-icon> Overview</b>
+      </a>
+
+      <section class="nav-group">
+        <app-vulnerabilities-list [categories]="vulnerabilityCategories$ | async"
+                                  [(selection)]="selectedVulnerability"></app-vulnerabilities-list>
+      </section>
+
+      <section class="nav-group">
+        <app-file-tree [root]="(project$ | async).location"
+                       [(selection)]="selectedFile"></app-file-tree>
+      </section>
+    </section>
+  </nav>
+
+  <div class="border" (mousedown)="this.shouldResize = true;">
+    <div #borderline class="borderline"></div>
+  </div>
+
+  <div class="content-area" [ngSwitch]="detailViewKind">
+    <app-vulnerability *ngSwitchCase="detailViewKinds.Vulnerability"
+                       [vulnerability]="selectedVulnerability"></app-vulnerability>
+
+    <app-file-view *ngSwitchCase="detailViewKinds.File" [path]="selectedFile"></app-file-view>
+
+    <app-vulnerabilities-overview *ngSwitchCase="detailViewKinds.Overview" [report]="vulnerabilityCategories$ | async">
+    </app-vulnerabilities-overview>
+
+    <app-vulnerabilities-table *ngSwitchCase="detailViewKinds.Overview" [report]="vulnerabilityCategories$ | async">
+    </app-vulnerabilities-table>
+  </div>
+</div>

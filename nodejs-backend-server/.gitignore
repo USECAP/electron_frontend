@@ -1,0 +1,6 @@
+build
+dist
+yarn-error.log
+test/data/invalid
+
+node_modules

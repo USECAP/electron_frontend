@@ -1,0 +1,90 @@
+<ng-container *ngIf="checkers">
+  <clr-tabs>
+
+    <!--Standard Configuration tab-->
+    <clr-tab>
+      <button clrTabLink>Standard</button>
+      <clr-tab-content *clrIfActive>
+        <section class="form-block">
+          <form class="compact">
+
+            <!--Select project OS-->
+            <div class="row">
+              <div class="col-xs col-left">
+                <div class="form-group">
+                  <label>Select Project OS</label>
+                  <div class="select">
+                    <select id="select_project_os"
+                            name="projectOS"
+                            [(ngModel)]="projectOS"
+                            required="required">
+                      <option *ngFor="let os of projectOSs" [value]="os.value">{{os.name}}</option>
+                    </select>
+                    <label for="select_project_os"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Select project language-->
+            <div class="row">
+              <div class="col-xs col-left">
+                <div class="form-group">
+                  <label>Select Project Language</label>
+                  <div class="select">
+                    <select id="select_project_language"
+                            name="projectLanguage"
+                            [(ngModel)]="projectLanguage"
+                            required="required">
+                      <option *ngFor="let language of projectLanguages" [value]="language.value">
+                        {{language.name}}</option>
+                    </select>
+                    <label for="select_project_language"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Enable alpha checkers toggle switch-->
+            <div class="row">
+              <div class="col-xs col-left">
+                <div class="form-group">
+                  <label>Enable Experimental (Alpha) Checkers</label>
+                  <div class="toggle-switch">
+                    <input type="checkbox"
+                           id="enable_alpha_checkers"
+                           [(ngModel)]="alphaCheckers"
+                           name="enableAlphaCheckers">
+                    <label for="enable_alpha_checkers"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+      </clr-tab-content>
+    </clr-tab>
+
+    <!--Advanced configuration tab-->
+    <clr-tab>
+      <button clrTabLink>Advanced</button>
+      <clr-tab-content *clrIfActive>
+        <h3>Default Checkers</h3>
+        <p>The default set of checkers covers a variety of checks targeted at finding security and API usage bugs,
+          dead code, and other logic errors.</p>
+        <form class="compact">
+          <app-checker-category *ngFor="let category of checkers.default" [category]="category">
+          </app-checker-category>
+        </form>
+
+        <h3>Alpha Checkers</h3>
+        <p>Experimental checkers in addition to the Default Checkers. These are checkers with known issues or
+          limitations that keep them from being on by default. They are likely to have false positives.</p>
+        <form class="compact">
+          <app-checker-category *ngFor="let category of checkers.alpha" [category]="category">
+          </app-checker-category>
+        </form>
+      </clr-tab-content>
+    </clr-tab>
+  </clr-tabs>
+</ng-container>

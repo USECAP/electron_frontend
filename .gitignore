@@ -1,0 +1,83 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# We are using yarn (and yarn.lock) now.
+package-lock.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/packages
+build.sh
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Test files
+test/data/autotools_project/.deps
+test/data/autotools_project/autom4te.cache
+test/data/autotools_project/aclocal.m4
+test/data/autotools_project/scan-build-*
+test/data/autotools_project/build.sh
+test/data/autotools_project/ci-report.json
+test/data/autotools_project/compile
+test/data/autotools_project/compile_commands.json
+test/data/autotools_project/config.h
+test/data/autotools_project/config.h.in
+test/data/autotools_project/config.log
+test/data/autotools_project/config.status
+test/data/autotools_project/configure
+test/data/autotools_project/depcomp
+test/data/autotools_project/install-sh
+test/data/autotools_project/main
+test/data/autotools_project/main.o
+test/data/autotools_project/Makefile
+test/data/autotools_project/Makefile.in
+test/data/autotools_project/missing
+test/data/autotools_project/stamp-h1
+test/data/cmake_project/build
+test/data/cmake_project/build.sh
+test/data/cmake_project/compile_commands.json
+test/data/make_project/build.sh
+test/data/make_project/compile_commands.json
+test/data/make_project/main
+
+# Clang SA files
+compile_commands.json
+ci-report.json
+scan-build-*

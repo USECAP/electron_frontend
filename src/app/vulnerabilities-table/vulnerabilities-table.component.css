@@ -1,0 +1,41 @@
+
+.tableWrapper {
+    min-width: 100%;   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+th {
+    border: 1px solid #ccc;
+    border-bottom: 3px  solid #ccc;
+}
+
+td {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 45%;
+}
+
+td.number {
+    text-align: right;
+    width: 10%;
+}
+
+#pageSelector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 5px;
+}
+
+.pageDisplay {
+    color: #555;
+    padding-top: 5px;
+    padding-right: 5px; padding-left: 5px;
+    width: 40px;
+    text-align: center;
+}

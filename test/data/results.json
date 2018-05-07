@@ -1,0 +1,6080 @@
+[
+  {
+    "path": [
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6867,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6867,
+                "col": 21,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6871,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6871,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6871,
+              "col": 20,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ctxt' is not equal to NULL",
+        "message": "Assuming 'ctxt' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6874,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6874,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6874,
+              "col": 25,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming pointer value is null",
+        "message": "Assuming pointer value is null"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 13,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6876,
+          "col": 13,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6876,
+              "col": 13,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6876,
+              "col": 55,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Calling 'htmlDoRead'",
+        "message": "Calling 'htmlDoRead'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6769,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 1,
+        "extended_message": "Entered call from 'htmlReadMemory__internal_alias'",
+        "message": "Entered call from 'htmlReadMemory__internal_alias'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6769,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6769,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6775,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6775,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6775,
+          "col": 5,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6775,
+              "col": 5,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6775,
+              "col": 37,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 1,
+        "extended_message": "Calling 'htmlCtxtUseOptions__internal_alias'",
+        "message": "Calling 'htmlCtxtUseOptions__internal_alias'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6696,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 2,
+        "extended_message": "Entered call from 'htmlDoRead'",
+        "message": "Entered call from 'htmlDoRead'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6696,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6696,
+                "col": 3,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6702,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6702,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6702,
+              "col": 38,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is true",
+        "message": "Assuming the condition is true"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6703,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6703,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6703,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6703,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6703,
+                "col": 28,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6703,
+                "col": 28,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6703,
+          "col": 28,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6703,
+              "col": 15,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6703,
+              "col": 17,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Access to field 'warning' results in a dereference of a null pointer (loaded from field 'sax')",
+        "message": "Access to field 'warning' results in a dereference of a null pointer (loaded from field 'sax')"
+      }
+    ],
+    "description": "Access to field 'warning' results in a dereference of a null pointer (loaded from field 'sax')",
+    "category": "Logic error",
+    "type": "Dereference of null pointer",
+    "check_name": "core.NullDereference",
+    "issue_hash_content_of_line_in_context": "235e00bb7c20446f88f10561a96aa500",
+    "issue_context_kind": "function",
+    "issue_context": "htmlCtxtUseOptions__internal_alias",
+    "issue_hash_function_offset": "5",
+    "location": {
+      "line": 6703,
+      "col": 28,
+      "file": "HTMLparser.c"
+    }
+  },
+  {
+    "path": [
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6867,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6867,
+                "col": 21,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6871,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6871,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6871,
+              "col": 20,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ctxt' is not equal to NULL",
+        "message": "Assuming 'ctxt' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6874,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6874,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6874,
+              "col": 25,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming pointer value is null",
+        "message": "Assuming pointer value is null"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 13,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6876,
+          "col": 13,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6876,
+              "col": 13,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6876,
+              "col": 55,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Calling 'htmlDoRead'",
+        "message": "Calling 'htmlDoRead'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6769,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 1,
+        "extended_message": "Entered call from 'htmlReadMemory__internal_alias'",
+        "message": "Entered call from 'htmlReadMemory__internal_alias'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6769,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6769,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6775,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6775,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6775,
+          "col": 5,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6775,
+              "col": 5,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6775,
+              "col": 37,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 1,
+        "extended_message": "Calling 'htmlCtxtUseOptions__internal_alias'",
+        "message": "Calling 'htmlCtxtUseOptions__internal_alias'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6696,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 2,
+        "extended_message": "Entered call from 'htmlDoRead'",
+        "message": "Entered call from 'htmlDoRead'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6696,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6696,
+                "col": 3,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6702,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6702,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6702,
+              "col": 38,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6708,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6708,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6708,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6708,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6708,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6708,
+              "col": 36,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is true",
+        "message": "Assuming the condition is true"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6708,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6709,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6709,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6709,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6709,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6709,
+                "col": 26,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6709,
+                "col": 26,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6709,
+          "col": 26,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6709,
+              "col": 15,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6709,
+              "col": 17,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Access to field 'error' results in a dereference of a null pointer (loaded from field 'sax')",
+        "message": "Access to field 'error' results in a dereference of a null pointer (loaded from field 'sax')"
+      }
+    ],
+    "description": "Access to field 'error' results in a dereference of a null pointer (loaded from field 'sax')",
+    "category": "Logic error",
+    "type": "Dereference of null pointer",
+    "check_name": "core.NullDereference",
+    "issue_hash_content_of_line_in_context": "13fcd384369dc36e75897188b8a13054",
+    "issue_context_kind": "function",
+    "issue_context": "htmlCtxtUseOptions__internal_alias",
+    "issue_hash_function_offset": "11",
+    "location": {
+      "line": 6709,
+      "col": 26,
+      "file": "HTMLparser.c"
+    }
+  },
+  {
+    "path": [
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6867,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6867,
+                "col": 21,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6871,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6871,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6871,
+              "col": 20,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ctxt' is not equal to NULL",
+        "message": "Assuming 'ctxt' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6871,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6871,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6873,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6873,
+                "col": 29,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6874,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6874,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6874,
+              "col": 25,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming pointer value is null",
+        "message": "Assuming pointer value is null"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6874,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6874,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6876,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 10,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6876,
+                "col": 13,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6876,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6876,
+          "col": 13,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6876,
+              "col": 13,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6876,
+              "col": 55,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Calling 'htmlDoRead'",
+        "message": "Calling 'htmlDoRead'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6769,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 1,
+        "extended_message": "Entered call from 'htmlReadMemory__internal_alias'",
+        "message": "Entered call from 'htmlReadMemory__internal_alias'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6769,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6769,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6773,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6773,
+                "col": 14,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6775,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6775,
+                "col": 22,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6775,
+          "col": 5,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6775,
+              "col": 5,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6775,
+              "col": 37,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 1,
+        "extended_message": "Calling 'htmlCtxtUseOptions__internal_alias'",
+        "message": "Calling 'htmlCtxtUseOptions__internal_alias'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6696,
+          "col": 1,
+          "file": "HTMLparser.c"
+        },
+        "depth": 2,
+        "extended_message": "Entered call from 'htmlDoRead'",
+        "message": "Entered call from 'htmlDoRead'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6696,
+                "col": 1,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6696,
+                "col": 3,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6699,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6699,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6702,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6702,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6702,
+              "col": 38,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6702,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6702,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6708,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6708,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6708,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6708,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6708,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6708,
+              "col": 36,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6708,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6708,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6715,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6715,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6715,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6715,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6715,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6715,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6715,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6715,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6715,
+              "col": 37,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6715,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6715,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6720,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6720,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6720,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6720,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6721,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6721,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6721,
+                "col": 5,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6721,
+                "col": 6,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6721,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6721,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6721,
+          "col": 9,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6721,
+              "col": 9,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6721,
+              "col": 36,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Assuming the condition is true",
+        "message": "Assuming the condition is true"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6721,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6721,
+                "col": 15,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6722,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6722,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6722,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6722,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6723,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6723,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 6723,
+                "col": 9,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6723,
+                "col": 12,
+                "file": "HTMLparser.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 6723,
+                "col": 40,
+                "file": "HTMLparser.c"
+              },
+              {
+                "line": 6723,
+                "col": 40,
+                "file": "HTMLparser.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 6723,
+          "col": 40,
+          "file": "HTMLparser.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 6723,
+              "col": 15,
+              "file": "HTMLparser.c"
+            },
+            {
+              "line": 6723,
+              "col": 17,
+              "file": "HTMLparser.c"
+            }
+          ]
+        ],
+        "depth": 2,
+        "extended_message": "Access to field 'ignorableWhitespace' results in a dereference of a null pointer (loaded from field 'sax')",
+        "message": "Access to field 'ignorableWhitespace' results in a dereference of a null pointer (loaded from field 'sax')"
+      }
+    ],
+    "description": "Access to field 'ignorableWhitespace' results in a dereference of a null pointer (loaded from field 'sax')",
+    "category": "Logic error",
+    "type": "Dereference of null pointer",
+    "check_name": "core.NullDereference",
+    "issue_hash_content_of_line_in_context": "69c9eafc3ad9337df2ed995ab19e4e72",
+    "issue_context_kind": "function",
+    "issue_context": "htmlCtxtUseOptions__internal_alias",
+    "issue_hash_function_offset": "25",
+    "location": {
+      "line": 6723,
+      "col": 40,
+      "file": "HTMLparser.c"
+    }
+  },
+  {
+    "description": "Dereference of null pointer",
+    "category": "Logic error",
+    "type": "Dereference of null pointer",
+    "location": {
+      "line": 3625,
+      "col": 48,
+      "file": "xmlregexp.c"
+    },
+    "path": [
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3780,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3780,
+                "col": 18,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3786,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3786,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3786,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3786,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3786,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3786,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3786,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3786,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3786,
+              "col": 20,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'exec' is not equal to NULL",
+        "message": "Assuming 'exec' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3786,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3786,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3788,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3788,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3788,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3788,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3788,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3788,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3788,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3788,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3788,
+              "col": 26,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3788,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3788,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3790,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3790,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3790,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3790,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3790,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3790,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3790,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3790,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3790,
+              "col": 25,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3790,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3790,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3793,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3793,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3793,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3793,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3793,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3793,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3793,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3793,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3793,
+              "col": 35,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3793,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3793,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3796,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3796,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3796,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3796,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3796,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3796,
+                "col": 13,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3796,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3796,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3796,
+              "col": 21,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'value' is not equal to NULL",
+        "message": "Assuming 'value' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3796,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3796,
+                "col": 13,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3809,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3809,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3809,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3809,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3809,
+                "col": 29,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3809,
+                "col": 32,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3809,
+          "col": 29,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3809,
+              "col": 29,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3809,
+              "col": 50,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3809,
+                "col": 29,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3809,
+                "col": 32,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 43,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Loop body executed 0 times",
+        "message": "Loop body executed 0 times"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4079,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 3,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4079,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 3,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4079,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4079,
+          "col": 7,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4079,
+              "col": 7,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4079,
+              "col": 24,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4079,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4079,
+                "col": 31,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 34,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4079,
+          "col": 31,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4079,
+              "col": 31,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4079,
+              "col": 55,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4079,
+                "col": 31,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4079,
+                "col": 34,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4110,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4110,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4110,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4110,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3818,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3818,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3818,
+          "col": 5,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3818,
+              "col": 5,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3818,
+              "col": 9,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Looping back to the head of the loop",
+        "message": "Looping back to the head of the loop"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3818,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3818,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 11,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 43,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is true",
+        "message": "Assuming the condition is true"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 43,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Entering loop body",
+        "message": "Entering loop body"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 11,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3833,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3833,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3833,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3833,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3834,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3834,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3834,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3834,
+          "col": 10,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3834,
+              "col": 10,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3834,
+              "col": 22,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3834,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3836,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3836,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3836,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3836,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3838,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3838,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3838,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3838,
+          "col": 10,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3838,
+              "col": 10,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3838,
+              "col": 47,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3838,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3876,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3876,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3876,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3876,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3876,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3876,
+              "col": 50,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3876,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3901,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3901,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3901,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3901,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3901,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3901,
+              "col": 33,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3901,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3916,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3916,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3916,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 20,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3916,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3916,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3916,
+              "col": 28,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'atom' is not equal to NULL",
+        "message": "Assuming 'atom' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3916,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 20,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3920,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3920,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3920,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3920,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3921,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3921,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3921,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3921,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3922,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3922,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3922,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3922,
+          "col": 7,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3922,
+              "col": 7,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3922,
+              "col": 15,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3922,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3927,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3927,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3927,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3927,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3927,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3927,
+              "col": 15,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ret' is not equal to 1",
+        "message": "Assuming 'ret' is not equal to 1"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3927,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4004,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4004,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4004,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4004,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4074,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4074,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4074,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4074,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4074,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4074,
+                "col": 19,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4074,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4074,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4074,
+              "col": 23,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ret' is >= 0",
+        "message": "Assuming 'ret' is >= 0"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4074,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4074,
+                "col": 19,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4078,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4078,
+                "col": 2,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4078,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4078,
+                "col": 2,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 2,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 2,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 4,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Looping back to the head of the loop",
+        "message": "Looping back to the head of the loop"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 11,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 43,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 11,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4085,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4085,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4085,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4085,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4086,
+                "col": 11,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4086,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4086,
+          "col": 11,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4086,
+              "col": 11,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4086,
+              "col": 52,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4086,
+                "col": 11,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4086,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4100,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4100,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4100,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4100,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4102,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4102,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4102,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4102,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4102,
+                "col": 11,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4102,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4102,
+          "col": 11,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4102,
+              "col": 11,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4102,
+              "col": 34,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming pointer value is null",
+        "message": "Assuming pointer value is null"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4102,
+                "col": 11,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4102,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4110,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4110,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4110,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4110,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4114,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3818,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3818,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3818,
+          "col": 5,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3818,
+              "col": 5,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3818,
+              "col": 9,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Looping back to the head of the loop",
+        "message": "Looping back to the head of the loop"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3818,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3818,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3831,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3831,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3832,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3832,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3832,
+              "col": 43,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Entering loop body",
+        "message": "Entering loop body"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3832,
+                "col": 2,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3832,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3833,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3833,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3833,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3833,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3834,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3834,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3834,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3834,
+          "col": 10,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3834,
+              "col": 10,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3834,
+              "col": 22,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3834,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3834,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3836,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3836,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3836,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3836,
+                "col": 9,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3838,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3838,
+                "col": 6,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3838,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3838,
+          "col": 10,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3838,
+              "col": 10,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3838,
+              "col": 47,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3838,
+                "col": 10,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3838,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3876,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3876,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3876,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3876,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3876,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3876,
+              "col": 50,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3876,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3876,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3901,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3901,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3901,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3901,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3901,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3901,
+              "col": 33,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3901,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3901,
+                "col": 21,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3916,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3916,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3916,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 20,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3916,
+          "col": 17,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3916,
+              "col": 17,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3916,
+              "col": 28,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'atom' is not equal to NULL",
+        "message": "Assuming 'atom' is not equal to NULL"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3916,
+                "col": 17,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3916,
+                "col": 20,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3920,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3920,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3920,
+                "col": 13,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3920,
+                "col": 14,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3921,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3921,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3921,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3921,
+                "col": 5,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3922,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3922,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3922,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3922,
+          "col": 7,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3922,
+              "col": 7,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3922,
+              "col": 15,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3922,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3922,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3927,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3927,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3927,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3927,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3927,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3927,
+              "col": 15,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming 'ret' is equal to 1",
+        "message": "Assuming 'ret' is equal to 1"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3927,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 10,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3927,
+                "col": 22,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 26,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3927,
+          "col": 22,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3927,
+              "col": 22,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3927,
+              "col": 40,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3927,
+                "col": 22,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3927,
+                "col": 26,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3937,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3937,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3937,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3937,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3937,
+                "col": 22,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 25,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3937,
+          "col": 22,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3937,
+              "col": 22,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3937,
+              "col": 34,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3937,
+                "col": 22,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3937,
+                "col": 25,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4005,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4005,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4005,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4005,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4005,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4005,
+                "col": 7,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4005,
+          "col": 8,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4005,
+              "col": 8,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4005,
+              "col": 29,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4005,
+                "col": 8,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4005,
+                "col": 11,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4010,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4010,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4010,
+                "col": 3,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4010,
+                "col": 4,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4011,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4011,
+                "col": 8,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 4011,
+                "col": 7,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4011,
+                "col": 8,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 4012,
+                "col": 4,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 4012,
+                "col": 30,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 4012,
+          "col": 4,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 4012,
+              "col": 4,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 4012,
+              "col": 49,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Calling 'xmlFARegExecSaveInputString'",
+        "message": "Calling 'xmlFARegExecSaveInputString'"
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3597,
+          "col": 1,
+          "file": "xmlregexp.c"
+        },
+        "depth": 1,
+        "extended_message": "Entered call from 'xmlRegExecPushStringInternal'",
+        "message": "Entered call from 'xmlRegExecPushStringInternal'"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3597,
+                "col": 1,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3597,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3603,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3603,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3603,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3603,
+                "col": 6,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3603,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3603,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3603,
+          "col": 9,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3603,
+              "col": 9,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3603,
+              "col": 32,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 1,
+        "extended_message": "Assuming the condition is false",
+        "message": "Assuming the condition is false"
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3603,
+                "col": 9,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3603,
+                "col": 12,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3612,
+                "col": 12,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3612,
+                "col": 13,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3612,
+                "col": 12,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3612,
+                "col": 13,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3625,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3625,
+                "col": 8,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "control",
+        "edges": [
+          {
+            "start": [
+              {
+                "line": 3625,
+                "col": 5,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3625,
+                "col": 8,
+                "file": "xmlregexp.c"
+              }
+            ],
+            "end": [
+              {
+                "line": 3625,
+                "col": 48,
+                "file": "xmlregexp.c"
+              },
+              {
+                "line": 3625,
+                "col": 48,
+                "file": "xmlregexp.c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "event",
+        "location": {
+          "line": 3625,
+          "col": 48,
+          "file": "xmlregexp.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 3625,
+              "col": 5,
+              "file": "xmlregexp.c"
+            },
+            {
+              "line": 3625,
+              "col": 65,
+              "file": "xmlregexp.c"
+            }
+          ]
+        ],
+        "depth": 1,
+        "extended_message": "Dereference of null pointer",
+        "message": "Dereference of null pointer"
+      }
+    ]
+  },
+  {
+    "path": [
+      {
+        "kind": "event",
+        "location": {
+          "line": 1000,
+          "col": 25,
+          "file": "xmlwriter.c"
+        },
+        "ranges": [
+          [
+            {
+              "line": 1001,
+              "col": 29,
+              "file": "xmlwriter.c"
+            },
+            {
+              "line": 1001,
+              "col": 73,
+              "file": "xmlwriter.c"
+            }
+          ]
+        ],
+        "depth": 0,
+        "extended_message": "Value stored to 'count' is never read",
+        "message": "Value stored to 'count' is never read"
+      }
+    ],
+    "description": "Value stored to 'count' is never read",
+    "category": "Dead store",
+    "type": "Dead assignment",
+    "check_name": "deadcode.DeadStores",
+    "issue_hash_content_of_line_in_context": "f00928400deb11c3002ca8cfbcc70aac",
+    "issue_context_kind": "function",
+    "issue_context": "xmlTextWriterStartElement",
+    "issue_hash_function_offset": "37",
+    "location": {
+      "line": 1000,
+      "col": 25,
+      "file": "xmlwriter.c"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+[submodule "ci-tools"]
+	path = ci-tools
+	url = git@gitlab.com:code-intelligence/ci-tools.git

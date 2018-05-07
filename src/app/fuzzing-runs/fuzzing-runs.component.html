@@ -1,0 +1,81 @@
+<clr-stack-view *ngIf="project?.fuzzingResults?.length > 0; else noFuzzingTargets">
+  <clr-stack-block *ngFor="let fuzz of project.fuzzingResults; let i = index">
+    <clr-stack-label>
+      Target: {{fuzz.name}}
+      <span class="right" [ngSwitch]="fuzz.status">
+        <span *ngSwitchCase="Status.COMPLETE">
+          <button class="btn btn-sm btn-success" routerLink="/workbench/{{project.name}}/{{fuzz.uuid}}">
+            <clr-icon shape="scroll"></clr-icon>
+            Show Results
+          </button>
+          <button class="btn btn-sm btn-info" (click)="rerunFuzzingTarget(fuzz)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Fuzz
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="deleteFuzzingTarget(fuzz)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.RUNNING">
+          <span class="spinner spinner-inline"></span>
+          <button class="btn btn-sm btn-link">Running</button>
+          <button class="btn btn-sm btn-danger-outline" (click)="stopFuzzing(fuzz)">
+            <clr-icon shape="stop"></clr-icon>
+            Stop
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.BUILDING">
+        <span class="spinner spinner-inline"></span>
+          <button class="btn btn-sm btn-link">Building Target</button>
+          <button class="btn btn-sm btn-danger-outline" (click)="stopFuzzing(fuzz)">
+            <clr-icon shape="stop"></clr-icon>
+            Stop
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.FAILED">
+          <span class="label label-danger">Failed</span>
+          <button class="btn btn-sm btn-info" (click)="rerunFuzzingTarget(fuzz)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Fuzz
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="deleteFuzzingTarget(fuzz)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.ABORTED">
+          <span class="label label-danger">Aborted</span>
+          <button class="btn btn-sm btn-info" (click)="rerunFuzzingTarget(fuzz)">
+            <clr-icon shape="repeat"></clr-icon>
+            Re-Fuzz
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="deleteFuzzingTarget(fuzz)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+        <span *ngSwitchCase="Status.READY">
+          <button class="btn btn-sm btn-info-outline" (click)="runFuzzingTarget(fuzz)">
+            <clr-icon shape="play"></clr-icon>
+            Start
+          </button>
+          <button class="btn btn-sm btn-danger-outline" (click)="deleteFuzzingTarget(fuzz)">
+            <clr-icon shape="trash"></clr-icon>
+            Delete
+          </button>
+        </span>
+      </span>
+
+    </clr-stack-label>
+
+    <clr-stack-block>
+      <clr-stack-label>
+        <h4>Logs</h4>
+        <app-log [content]="fuzz.logs"></app-log>
+      </clr-stack-label>
+    </clr-stack-block>
+  </clr-stack-block>
+</clr-stack-view>
+
+<ng-template #noFuzzingTargets>No fuzzing results found. Start by adding a new fuzzing target.</ng-template>

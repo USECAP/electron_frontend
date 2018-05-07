@@ -1,0 +1,124 @@
+<div class="content-container">
+  <div class="content-area">
+    <app-alert [content]="alertContent$ | async" [timeoutInSeconds]="5"></app-alert>
+
+    <h2>Welcome to the Security Scanner!</h2>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">New Project</h3>
+            <p class="card-text">
+              Start by scanning a new C or C++ project.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-sm btn-link" (click)="onNewProject()">Open new project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 *ngIf="(projects$ | async)?.length > 0; else noProjects">Scanned Projects</h2>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"
+           *ngFor="let project of projects$ | async; trackBy:trackProject">
+        <app-project-card [project]="project"></app-project-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noProjects>
+  <h5>No projects found.</h5>
+  <p>
+    <a class="btn btn-sm"
+       (click)="onNewProject()">Open a new project</a> to start a scan.
+  </p>
+</ng-template>
+
+<clr-wizard #newProjectWizard
+            [(clrWizardOpen)]="showNewProjectWizard"
+            [clrWizardDisableStepnav]="true"
+            [clrWizardPreventDefaultCancel]="true"
+            (clrWizardOnCancel)="onCancel()">
+  <clr-wizard-title>Scan new project</clr-wizard-title>
+
+  <clr-wizard-button [type]="'cancel'">Cancel</clr-wizard-button>
+  <clr-wizard-button [type]="'next'">Next</clr-wizard-button>
+  <clr-wizard-button [type]="'finish'">Finish</clr-wizard-button>
+
+  <clr-wizard-page
+    [clrWizardPagePreventDefaultNext]="true"
+    (clrWizardPageOnCommit)="addProject()">
+    <ng-template clrPageTitle>Project Information</ng-template>
+
+    <form #formPageOne>
+      <section class="form-block">
+
+        <label>Please provide Information about your project.</label>
+
+
+        <div class="form-group">
+          <label for="project-path">Path</label>
+          <input type="text"
+                 id="project-path"
+                 [(ngModel)]="projectPath"
+                 name="projectPath"
+                 placeholder="Project path"
+                 required
+                 size="45">
+          <a (click)="onBrowseProjectDirectory()" class="btn btn-sm">Browse</a>
+        </div>
+
+        <div class="form-group">
+          <label for="project-name">Name</label>
+          <input type="text"
+                 id="project-name"
+                 [(ngModel)]="projectName"
+                 name="projectName"
+                 placeholder="Project name"
+                 required
+                 size="45">
+        </div>
+
+        <div class="form-group">
+          <label for="build-system">Build System</label>
+          <div class="select">
+            <select id="build-system"
+                    name="buildSystem"
+                    [(ngModel)]="buildSystem"
+                    (change)="buildSystemUpdated($event.target.value)"
+                    required="required">
+              <option value=""
+                      disabled="disabled"
+                      *ngIf="buildCommandSelected===false"
+                      [attr.selected]="buildCommandSelected===false"
+                      hidden="hidden">
+                Select build system
+              </option>
+              <option *ngFor="let buildSystem of buildSystems"
+                      [value]="buildSystem.value">
+                {{buildSystem.name}}
+              </option>
+            </select>
+          </div>
+          <a role="tooltip" aria-haspopup="true" class="tooltip tooltip-md" *ngIf="buildSystemTooltip">
+            <clr-icon shape="info-circle" size="24"></clr-icon>
+            <span class="tooltip-content">{{buildSystemTooltip}}</span>
+          </a>
+          <textarea id="build-command"
+                    name="buildCommand"
+                    [(ngModel)]="buildCommand"
+                    cols="45"
+                    rows="8"
+                    *ngIf="customBuildCommandRequired"
+                    placeholder="Enter build command here ..."
+                    required="required">
+          </textarea>
+        </div>
+
+      </section>
+    </form>
+
+  </clr-wizard-page>
+</clr-wizard>

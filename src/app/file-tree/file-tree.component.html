@@ -1,0 +1,25 @@
+<clr-tree-node [clrLoading]="isLoading">
+  <a class="clr-treenode-link" (click)="isExpanded = !isExpanded">
+    <clr-icon shape="folder" class="is-solid"></clr-icon>
+    {{root | basename}}
+  </a>
+  <ng-template [(clrIfExpanded)]="isExpanded">
+    <div class="file-tree-children"
+         *ngFor="let node of nodes$ | async"
+         [ngSwitch]="node.isDirectory">
+      <app-file-tree *ngSwitchCase="true"
+                     [selection]="_selection"
+                     (selectionChange)="selectionChange.emit($event)"
+                     [root]="node.fileName"
+                      ></app-file-tree>
+      <clr-tree-node *ngSwitchCase="false">
+        <a class="clr-treenode-link"
+           [class.active]="_selection === node.fileName"
+           (click)="selectionChange.emit(node.fileName)">
+          <clr-icon shape="file"></clr-icon>
+          {{node.fileName | basename}}
+        </a>
+      </clr-tree-node>
+    </div>
+  </ng-template>
+</clr-tree-node>

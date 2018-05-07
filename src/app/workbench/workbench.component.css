@@ -1,0 +1,32 @@
+.content-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    max-height: calc(100% - 60px);
+}
+
+.content-area{
+    overflow-y: auto !important;
+    height: 100%;
+    order: 1;
+}
+
+.sidenav{
+    overflow-y: auto !important;
+    height: 100%;
+    border: none;
+    max-width: 26rem;
+}
+
+.border{
+    padding: 0 6px;
+    cursor: col-resize;
+}
+
+.borderline{
+    background-color: #ccc;
+    margin: 0 auto;
+    z-index: 1111;
+    height: 100%;
+    width: 1px;
+}

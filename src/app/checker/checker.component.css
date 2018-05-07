@@ -1,0 +1,13 @@
+.col-left{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.col-right{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 6px 0;
+}
